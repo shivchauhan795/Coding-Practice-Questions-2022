@@ -9,11 +9,12 @@ int main()
 
     for (int i = 0; i < n; i++) // for row
     {
-        for (int j = 0; j < i; j++) // for co
+        for (int j = 0; j <= i; j++) // for col
         {
-            cout << "* ";   // for printing
+            cout << "* "; // for printing
         }
-        cout << endl;   // for next line
+        cout << endl; // for next line
     }
+
     return 0;
 }
