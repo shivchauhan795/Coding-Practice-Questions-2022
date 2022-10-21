@@ -9,7 +9,7 @@ int main()
 
     for (int i = 1; i <= n; i++)
     {
-        for (int j = n; j >= i; j--) // For spaces
+        for (int j = n-i; j >= 1; j--) // For spaces
         {
             cout << " ";
         }
