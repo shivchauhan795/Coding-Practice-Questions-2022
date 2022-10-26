@@ -43,7 +43,7 @@ int main()
     //     cout << *(it) << " ";
     // }
 
-    // for (auto it : v)   // Thisr way
+    // for (auto it : v)   // Third way
     // {
     //     cout << it << " ";
     // }
